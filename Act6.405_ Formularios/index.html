@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Ricardo Anguiano Arredondo">
+    <meta name="description" content="City Gamer - Noticias y videojuegos">
+
+    <title>City Gamer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Google Material Symbols -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <header>
+        <section class="encabezado">
+            <span class="material-symbols-outlined">sports_esports</span>
+
+            <article>
+                <h1>City Gamer</h1>
+                <p>Noticias y novedades del mundo de los videojuegos</p>
+            </article>
+        </section>
+    </header>
+
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#noticias">Noticias</a>
+        <a href="#juegos">Videojuegos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+
+    <main>
+
+        <section id="inicio" class="bienvenida">
+
+            <article>
+                <h2>Videojuegos del año</h2>
+
+                <p>
+                    Conoce algunos de los videojuegos más esperados,
+                    noticias de la industria y próximos lanzamientos.
+                </p>
+
+                <a class="boton" href="#juegos">Ver juegos</a>
+            </article>
+
+        </section>
+
+
+        <section id="noticias" class="seccion">
+
+            <article class="titulo">
+                <span class="material-symbols-outlined">newspaper</span>
+                <h2>Noticias</h2>
+            </article>
+
+            <section class="noticias">
+
+                <article class="noticia">
+                    <h3>GTA 6 continúa siendo uno de los juegos más esperados</h3>
+
+                    <p>
+                        Grand Theft Auto VI es uno de los lanzamientos más
+                        esperados por los jugadores y continúa generando
+                        gran interés dentro de la industria.
+                    </p>
+                </article>
+
+
+                <article class="noticia">
+                    <h3>Gears of War regresa con nueva experiencia</h3>
+
+                    <p>
+                        La saga Gears of War continúa presente con nuevos
+                        proyectos y experiencias para los jugadores de Xbox y PC.
+                    </p>
+                </article>
+
+            </section>
+
+        </section>
+
+
+        <section id="juegos" class="seccion">
+
+            <article class="titulo">
+                <span class="material-symbols-outlined">sports_esports</span>
+                <h2>Videojuegos destacados</h2>
+            </article>
+
+
+            <section class="juegos">
+
+                <article class="juego">
+
+                    <img
+                        src="https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_Robbery_With_Logo_landscape.0sjdgaq91u2yn.jpg?akim=1&imdensity=1&imwidth=3840"
+                        alt="Grand Theft Auto VI">
+
+                    <section>
+                        <h3>Grand Theft Auto VI</h3>
+
+                        <p>
+                            Uno de los videojuegos más esperados.
+                            Regresa la serie Grand Theft Auto con una
+                            nueva historia ambientada en Vice City.
+                        </p>
+                    </section>
+
+                </article>
+
+
+                <article class="juego">
+
+                    <img
+                        src="https://store-images.s-microsoft.com/image/apps.55549.14083498106527717.baf556ff-4380-4b5b-9e66-afb4977d6535.ed9482e8-90c6-4198-952b-9a084078cb92"
+                        alt="Gears of War Reloaded">
+
+                    <section>
+                        <h3>Gears of War</h3>
+
+                        <p>
+                            Una de las franquicias de acción más conocidas
+                            de Xbox, con combates y una historia de ciencia ficción.
+                        </p>
+                    </section>
+
+                </article>
+
+
+                <article class="juego">
+
+                    <section class="juego-texto">
+
+                        <span class="material-symbols-outlined icono-juego">
+                            videogame_asset
+                        </span>
+
+                        <h3>Próximos lanzamientos</h3>
+
+                        <p>
+                            Nuevos videojuegos llegarán próximamente
+                            a diferentes plataformas.
+                        </p>
+
+                    </section>
+
+                </article>
+
+            </section>
+
+        </section>
+
+
+        <aside>
+            <h2>¿Sabías que?</h2>
+
+            <p>
+                Los videojuegos se han convertido en una de las formas
+                de entretenimiento más importantes del mundo.
+            </p>
+        </aside>
+
+
+        <section id="contacto" class="seccion contacto">
+
+            <article class="titulo">
+                <span class="material-symbols-outlined">mail</span>
+                <h2>Contacto</h2>
+            </article>
+
+            <p>
+                Déjanos tus datos y dinos qué videojuego te gustaría
+                ver en City Gamer.
+            </p>
+
+
+            <form id="formulario">
+
+                <label for="nombre">Nombre:</label>
+
+                <input
+                    type="text"
+                    id="nombre"
+                    name="nombre"
+                    required>
+
+
+                <label for="correo">Correo:</label>
+
+                <input
+                    type="email"
+                    id="correo"
+                    name="correo"
+                    required>
+
+
+                <label for="juegoFavorito">Videojuego favorito:</label>
+
+                <input
+                    type="text"
+                    id="juegoFavorito"
+                    name="juegoFavorito"
+                    required>
+
+
+                <label for="mensaje">Comentario:</label>
+
+                <textarea
+                    id="mensaje"
+                    name="mensaje"
+                    rows="4"
+                    required></textarea>
+
+
+                <button type="submit">
+                    <span class="material-symbols-outlined">send</span>
+                    Enviar
+                </button>
+
+            </form>
+
+
+            <article id="resultado"></article>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <section>
+            <h2>City Gamer</h2>
+            <p>Proyecto académico de desarrollo web.</p>
+        </section>
+
+        <section>
+            <p>© 2026 City Gamer</p>
+            <p>Ricardo Anguiano</p>
+        </section>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
